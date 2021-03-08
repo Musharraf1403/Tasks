@@ -1,0 +1,19 @@
+div{
+    padding: 20px;
+}
+button{
+    margin-top: 20px;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+  mat-card-title{
+    font-weight: bolder;
+    font-size: x-large;
+}

@@ -1,0 +1,23 @@
+
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Simple Calculator</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" [(ngModel)] ="inputExpression">
+                <button class="btn btn-primary" (click)="onCalculateExpression()">Submit</button>
+                <p>{{result}}</p>
+              </div>
+            </div>
+          </div>
+    </mat-card-content>
+    <!-- <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions> -->
+  </mat-card>
